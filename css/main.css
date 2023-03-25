@@ -1,0 +1,97 @@
+/* HTML RESET  */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* heading  */
+#heading{
+    background-color: black;
+}
+#heading h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+
+/* generate button  */
+.btnContainer button{
+    padding: 5px 7px;
+    margin: 5px 20px;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    color: orange;
+    background-color: blue;
+}
+#navBar button:hover{
+    background-color: rgb(61, 132, 238);
+}
+
+/* sliders  */
+/* size  */
+/* speed  */
+.sliderContainer{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;;
+}
+
+/* selection algo  */
+#choice{
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#choice label{
+    margin: 3px;
+    color: aliceblue;
+}
+#choice select{
+    padding: 3px 10px;
+    margin: 3px;
+}
+
+
+/* main section  */
+#mainContainer{
+    display: flex;
+    justify-content: space-between;
+}
+/* arrContainer  */
+#arrContainer{
+    display: flex;
+    height: 75vh;
+    padding: 2px 2%;
+    width: 75%;
+}
+
+#statusContainer{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+
+#TCcontainer{
+    padding: 10px 0px;
+    margin: 1rem o;
+    height: 30%;
+}
+#SCcontainer{
+    padding: 10px 0px;
+    margin: 1rem o;
+    height: 30%;
+}

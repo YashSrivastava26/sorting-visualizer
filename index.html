@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Sorting Visualizer</h1>
+    </div>
+    <div id="navBar">
+        <div class="btnContainer">
+            <button id="btnGenerate">Generate</button>
+        </div>
+        <div class="sliderContainer">
+            <input type="range" min="20" max="100" value="60" id="arrSize">
+            <span>size</span>
+        </div>
+        <div class="sliderContainer">
+            <input type="range" min="-100" max="0" step="10" value="-50" id="sortSpeed">
+            <span>speed</span>
+        </div>
+        <div id="choice">
+            <label for="select_algo">Sorting Algorithm</label>
+            <select name="select_algo" id="algo_selection">
+                <option value="bubble_sort">Bubble Sort</option>
+                <option value="insertion_sort">Insertion sort</option>
+                <option value="selection_sort">Selection Sort</option>
+                <option value="merge_sort" selected>Merge Sort</option>
+                <option value="heap_sort">Heap Sort</option>
+            </select>
+        </div>
+
+        <div class="btnContainer">
+            <button id="btnSort">Sort</button>
+        </div>
+    </div>
+
+    <section id="mainContainer">
+        <div id="statusContainer">
+            <h3>Time Complexity</h3>
+            <div id="TCcontainer"></div>
+            <h3>Space Complexity</h3>
+            <div id="SCcontainer"></div>
+        </div>
+        <div id="arrContainer">
+
+        </div>
+    </section>
+
+
+</body>
+
+<script src="/scripts/main.js"></script>
+<script src="/scripts/bubble_sort.js"></script>
+<script src="/scripts/insertion_sort.js"></script>
+<script src="/scripts/selection_sort.js"></script>
+<script src="/scripts/merge_sort.js"></script>
+<script src="/scripts/heap_sort.js"></script>
+<script src="/scripts/visulization.js"></script>
+<script src="/scripts/status.js"></script>
+
+</html>

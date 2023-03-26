@@ -1,4 +1,4 @@
-## Website Link : [Sorting Visualizer] (https://yashsrivastava26.github.io/sorting-visulizer/)
+## Website Link : https://yashsrivastava26.github.io/sorting-visualizer/
 ---
 ---
 
